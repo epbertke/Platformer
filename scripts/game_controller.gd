@@ -1,6 +1,5 @@
 class_name Controller extends Node
 @export var score : int = 0
-@onready var label : Label 
 var level = 1
 
 func _ready():
