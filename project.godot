@@ -1,0 +1,32 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Platformer"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+config/icon="res://assets/icon.svg"
+
+[autoload]
+
+GameController="*res://scripts/game_controller.gd"
+
+[display]
+
+window/size/viewport_width=1155
+window/stretch/mode="canvas_items"
+
+[shader_globals]
+
+score={
+"type": "int",
+"value": 0
+}

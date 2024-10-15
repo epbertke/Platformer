@@ -1,0 +1,46 @@
+[gd_resource type="TileSet" load_steps=15 format=3 uid="uid://be24tl7qhrsba"]
+
+[ext_resource type="Texture2D" uid="uid://c2dpn0qbyq1hh" path="res://assets/tiles/tile_0000.png" id="1_1mtxe"]
+[ext_resource type="Texture2D" uid="uid://bw28i7dgu50j1" path="res://assets/tiles/tile_0004.png" id="2_xde1g"]
+[ext_resource type="Texture2D" uid="uid://sttj22cfqfoi" path="res://assets/tiles/tile_0034.png" id="3_c7663"]
+[ext_resource type="Texture2D" uid="uid://b4jghdlpb55ys" path="res://assets/tiles/tile_0002.png" id="4_vxl64"]
+[ext_resource type="Texture2D" uid="uid://uensufx2nwnf" path="res://assets/tiles/tile_0005.png" id="5_q0qlg"]
+[ext_resource type="Texture2D" uid="uid://g1uuqwd7v6ov" path="res://assets/tiles/tile_0020.png" id="6_puwte"]
+[ext_resource type="Texture2D" uid="uid://12xj5hu0i3m0" path="res://assets/tiles/tile_0058.png" id="7_hd0j8"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_odvlu"]
+texture = ExtResource("1_1mtxe")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u8qv0"]
+texture = ExtResource("2_xde1g")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i78hd"]
+texture = ExtResource("3_c7663")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y1tt6"]
+texture = ExtResource("4_vxl64")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4ix4j"]
+texture = ExtResource("5_q0qlg")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kjbhl"]
+texture = ExtResource("6_puwte")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dtu3w"]
+texture = ExtResource("7_hd0j8")
+0:0/0 = 0
+
+[resource]
+sources/1 = SubResource("TileSetAtlasSource_odvlu")
+sources/2 = SubResource("TileSetAtlasSource_u8qv0")
+sources/3 = SubResource("TileSetAtlasSource_i78hd")
+sources/5 = SubResource("TileSetAtlasSource_y1tt6")
+sources/6 = SubResource("TileSetAtlasSource_4ix4j")
+sources/7 = SubResource("TileSetAtlasSource_kjbhl")
+sources/8 = SubResource("TileSetAtlasSource_dtu3w")
